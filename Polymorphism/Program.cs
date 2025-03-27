@@ -10,8 +10,7 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            //A a = new A();
-            //a.Add(50,60);
+           
 
             A b=new B();
             b.one(2);
@@ -19,21 +18,7 @@ namespace Polymorphism
     }
     class A
     {
-        //public void Add()
-        //{
-        //    int a = 10;
-        //    int b = 20;
-        //    Console.WriteLine(a+b);
-        //}
-        //public void Add(int a)
-        //{
-        //    int b = 20;
-        //    Console.WriteLine(a + b);
-        //}
-        //public void Add(int a,int b)
-        //{
-        //    Console.WriteLine(a + b);
-        //}
+        
         public void one()
         {
             Console.WriteLine("one");
