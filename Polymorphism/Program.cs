@@ -26,7 +26,7 @@ namespace Polymorphism
         public virtual void one(int a)
         {
             
-            Console.WriteLine("overloading  trewjq    j ");
+            Console.WriteLine("overloading  trewjq abinesh j ");
         }
 
     }
