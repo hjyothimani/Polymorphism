@@ -26,7 +26,7 @@ namespace Polymorphism
         public virtual void one(int a)
         {
             
-            Console.WriteLine("overloading  trewjq abinesh j ");
+            Console.WriteLine("overloading  ");
         }
 
     }
@@ -35,6 +35,11 @@ namespace Polymorphism
         public override void one(int a)
         {
             base.one(a);
+            Console.WriteLine("overrideing");
+            Console.WriteLine("overrideing");
+            Console.WriteLine("overrideing");
+            Console.WriteLine("overrideing");
+            Console.WriteLine("overrideing");
             Console.WriteLine("overrideing");
         }
     }
